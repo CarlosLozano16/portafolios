@@ -1,0 +1,175 @@
+
+
+.titulo_seccion {
+    position:relative;
+    font-size: 30px;
+    color: #155023;
+    text-align:justify;
+  }
+  .form-contenedor{background-color: #bf7623;
+    max-width: 500px
+}
+  .container-formulario {
+    max-width: 100px; /* Define el ancho máximo del contenedor */
+    margin:50px; /* Centra el contenedor horizontalmente */
+    padding: 1px; /* Agrega un poco de espacio alrededor del formulario */
+    border:#137312; /* Agrega un borde al contenedor */
+    border-radius: 10%; /* Agrega bordes redondeados al contenedor */
+  }
+  .form-group {
+    margin-bottom: 10px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 200px; /* Define el ancho máximo del input */
+    padding: 10px;
+    border: 5px solid #137312;
+    border-radius: 15%;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+   background-color: #1c471a;
+   font-size: larger;color: #b35f00;/* Coloca estilos a tu botón */
+  }
+  button:hover {
+    background-color: #b35f00;
+  }
+  body {background-color: rgb(63, 174, 50);
+  }
+  ul, ol{list-style: none;}
+  a{text-decoration: none;}
+  header{
+      display: flex;
+      align-items:center;
+      justify-content:space-between;background-color: aquamarine;
+  }
+  p{font-size:larger;font-family: "Lucida Sans", sans-serif;color: rgb(10, 56, 10);}
+  nav ul{
+      display: flex;
+      gap: 2em;
+      padding-right: 2EM;
+      font-style:normal;font-weight: 200;
+      font-family: "Sixtyfour Convergence", sans-serif;
+  }
+  
+  HEADER A I{
+      color: black;
+      font-size: 3EM;
+      padding: 0.2EM;
+  }
+  h2 {color: rgb(58, 92, 6);}
+  
+  /*adaptar pantalla movil a pc*/
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .card-container{
+      margin: 5px;
+      width: 95%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .card {
+      border: 4px dotted teal;
+      border-radius: 5%;
+      padding: 5px;
+      height: 400px;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  
+  .imagen-container {
+      border: 4px dotted rgb(208, 103, 12);
+      border-radius: 5%;
+      width: 80%;
+      height: 60%;
+  }
+  
+  .texto {
+      font-size: 32px;
+      width: 80%;
+      text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+      .card-container{
+          width: 45%;
+      }
+  }
+  
+  @media (min-width:1024px) {
+      .card-container{
+          width: 30%;
+      }
+  }
+  /*adaptar pantalla movil a pc*/
+  
+  /*pie de pagina*/
+  footer {
+      clear: both;
+      background-color: rgb(12, 48, 9);
+      width: 100%;
+      text-align: center;
+      padding: 25px;
+      color: aliceblue;
+  }
+  /*pie de pagina*/
+  
+  /*boton menu*/
+  #check {
+      display: none;
+  }
+  
+  .checkbtn {
+      font-size: 32px;
+      color: rgb(20, 39, 185);
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+  }
+  
+  /*estilos para pantallas pequeñas*/
+  @media (max-width: 768px) {
+      header{
+          background-color: burlywood;
+      }
+  
+      .aACERCA DE MI{
+          text-align: center;
+      }
+  
+  .checkbtn{display: block;
+  }
+  
+  #encabezado ul {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(120, 111, 111);
+      text-align: center;
+      top: 80%:auto;
+      left: 80&;
+  
+      display: block;
+      margin: 50px;
+      line-height: 30px;
+  }
+  
+  #encabezado nav ul li a{
+      font-size: 20px;
+  }
+  }
